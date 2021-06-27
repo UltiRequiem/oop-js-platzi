@@ -1,7 +1,8 @@
 class Student {
-  constructor(name, age, approvedCourses) {
+  constructor({ name, age, approvedCourses, email }) {
     this.name = name;
     this.age = age;
+    this.email = email;
     this.approvedCourses = approvedCourses;
   }
 
@@ -10,9 +11,14 @@ class Student {
   }
 }
 
-const JUAN = new Student('Juan David Castro', 18, [
-  'Cómo Conseguir Trabajo en Programación',
-  'Curso Básico de Programación Orientada a Objetos con JavaScript',
-]);
+const JUAN = new Student({
+  name: 'Juan David Castro',
+  age: 18,
+  email: 'juan@platzi.com',
+  approvedCourses: [
+    'Cómo Conseguir Trabajo en Programación',
+    'Curso Básico de Programación Orientada a Objetos con JavaScript',
+  ],
+});
 
-console.log(JUAN)
+console.log(JUAN);
