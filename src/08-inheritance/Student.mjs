@@ -15,8 +15,25 @@ class BaseStudent {
   }
 }
 
-class ExpertStudent extends BaseStudent {}
-class BasicStudent extends BaseStudent {}
-class FreeStudent extends BaseStudent {}
+class ExpertStudent extends BaseStudent {
+  constructor(props) {
+    super(props);
+    this.membershipType = 'Expert';
+  }
+}
+
+class BasicStudent extends BaseStudent {
+  constructor(props) {
+    super(props);
+    this.membershipType = 'Basic';
+  }
+}
+
+class FreeStudent extends BaseStudent {
+  constructor(props) {
+    super(props);
+    this.membershipType = 'Free';
+  }
+}
 
 export { ExpertStudent, BasicStudent, FreeStudent };

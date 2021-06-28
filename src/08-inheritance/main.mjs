@@ -8,6 +8,8 @@ const JUAN = new BasicStudent({
   email: 'juan@email.net',
 });
 
+console.log(JUAN.membershipType);
+
 JUAN.present();
 // ---------------------
 
@@ -17,6 +19,8 @@ const ZERO = new ExpertStudent({
   lastname: 'Bobadilla',
   email: 'eliaz.bobadilladev@gmail.com',
 });
+
+console.log(ZERO.membershipType);
 
 ZERO.study();
 // --------------------
@@ -31,4 +35,5 @@ const JANNET = new FreeStudent({
 
 JANNET.study();
 JANNET.present();
+console.log(JANNET.membershipType);
 // --------------------
