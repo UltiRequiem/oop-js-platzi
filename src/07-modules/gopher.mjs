@@ -27,17 +27,17 @@ class Gopher {
 
   set name(name) {
     if (name === this.#name) {
-      console.log(`That is already the name of your Gopher!`);
+      console.log(`That's already the name of your Gopher!`);
     } else {
-      console.log(`You cannot change the name of your Gopher!`);
+      console.log(`You can't change the name of your Gopher!`);
     }
   }
 
   set id(id) {
     if (id === this.#id) {
-      console.log(`That is already the ID of your Gopher!`);
+      console.log(`That's already the ID of your Gopher!`);
     } else {
-      console.log(`You cannot change the ID of your Gopher!`);
+      console.log(`You can't change the ID of your Gopher!`);
     }
   }
 }
