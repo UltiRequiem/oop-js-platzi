@@ -5,11 +5,11 @@ const ZERO = {
   socialMedia: {
     twitter: 'UltiRequiem',
     instagram: undefined,
-    facebook: undefined,
+    facebook: undefined
   },
   approvedCourse: [
     'Curso Básico de Programación Orientada a Objetos con JavaScript',
-    'Curso Básico de Algoritmos y Pensamiento Lógico',
+    'Curso Básico de Algoritmos y Pensamiento Lógico'
   ],
   learningPaths: [
     {
@@ -17,14 +17,14 @@ const ZERO = {
       courses: [
         'Curso Practico de de HTML y CSS',
         'Curso Definitivo de HTML y CSS',
-        'Curso de Responsive Design',
-      ],
+        'Curso de Responsive Design'
+      ]
     },
     {
       name: 'Videogames',
-      courses: ['Unity 3D', 'Real Engine', 'Etc'],
-    },
-  ],
-};
+      courses: ['Unity 3D', 'Real Engine', 'Etc']
+    }
+  ]
+}
 
 // Literal Objects losses

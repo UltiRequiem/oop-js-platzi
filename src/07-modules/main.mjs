@@ -1,9 +1,9 @@
 // eslint-disable-next-line import/named
-import { Gopher } from './gopher.mjs';
+import { Gopher } from './gopher.mjs'
 
-const GopherOne = new Gopher({ name: 'Chunchumaru', id: 4554 });
-const GopherOneHouse = GopherOne.giveHouse();
-const GopherOneHug = GopherOne.giveHug(34);
+const GopherOne = new Gopher({ name: 'Chunchumaru', id: 4554 })
+const GopherOneHouse = GopherOne.giveHouse()
+const GopherOneHug = GopherOne.giveHug(34)
 
 // GopherOne.name = 'aj' // You cannot change the name of your Gopher!
 // GopherOne.id = 'aj' // You cannot change the ID of your Gopher!
@@ -14,5 +14,5 @@ const GopherOneHug = GopherOne.giveHug(34);
 // console.log(GopherOne); Gopher {}
 // console.log(GopherOne.name) That's a secret!
 
-console.log(GopherOneHug);
-console.log(GopherOneHouse);
+console.log(GopherOneHug)
+console.log(GopherOneHouse)

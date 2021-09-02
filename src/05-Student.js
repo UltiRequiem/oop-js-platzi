@@ -1,22 +1,20 @@
 class LearningPath {
   constructor({ name, courses = [], teachers = [], category, description }) {
-    this.name = name;
-    this.teachers = teachers;
-    this.category = category;
-    this.description = description;
-    this.courses = courses;
+    this.name = name
+    this.teachers = teachers
+    this.category = category
+    this.description = description
+    this.courses = courses
   }
 
   addCourse(course) {
-    this.courses.push(course);
+    this.courses.push(course)
   }
 
   addTeacher(teacher) {
-    this.teachers.push(teacher);
+    this.teachers.push(teacher)
   }
-
 }
-
 
 class Student {
   constructor({
@@ -27,18 +25,18 @@ class Student {
     instagram = undefined,
     github = undefined,
     approvedCourses = [],
-    learningPaths = [],
+    learningPaths = []
   }) {
-    this.name = name;
-    this.email = email;
-    this.username = username;
+    this.name = name
+    this.email = email
+    this.username = username
     this.socialMedia = {
       twitter,
       instagram,
-      github,
-    };
-    this.approvedCourses = approvedCourses;
-    this.learningPaths = learningPaths;
+      github
+    }
+    this.approvedCourses = approvedCourses
+    this.learningPaths = learningPaths
   }
 }
 
@@ -46,13 +44,13 @@ const ELIAZ = new Student({
   name: 'Eliaz Bobadilla',
   username: 'UltiRequiem',
   email: 'eliaz.bobadilladev@gmail.com',
-  twitter: 'UltiRequiem',
-});
+  twitter: 'UltiRequiem'
+})
 
 const JUAN = new Student({
   name: 'Juan David Castro',
   username: 'juandc',
   email: 'juan@dc.com',
   twitter: 'juandc',
-  instagram: 'juandc',
-});
+  instagram: 'juandc'
+})
