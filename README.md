@@ -1,4 +1,4 @@
-# JavaScript Object-oriented programming
+# JavaScript Object Oriented Programming
 
 [![GitMoji](https://img.shields.io/badge/gitmoji-%20😜-FFDD67.svg)](https://gitmoji.dev)
 [![Language Grade](https://img.shields.io/lgtm/grade/javascript/g/UltiRequiem/oop-js-platzi.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/UltiRequiem/oop-js-platzi/context:javascript)
